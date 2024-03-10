@@ -1,0 +1,45 @@
+/* Additional styles for enhanced UI */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  h1 {
+    color: #333333;
+  }
+  #generateBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #generateBtn:hover {
+    background-color: #45a049;
+  }
+  #duckImageContainer {
+    margin-top: 20px;
+  }
+  #duckImageContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  #duckImageContainer img:hover {
+    transform: scale(1.05);
+  }
+  
+  
